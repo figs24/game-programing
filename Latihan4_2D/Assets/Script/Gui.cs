@@ -20,4 +20,12 @@ public class Gui : MonoBehaviour
     {
         SceneManager.LoadScene("SampleScene");
     }
+    public void onCredits()
+    {
+        SceneManager.LoadScene("kredit");
+    }
+    public void onHelps()
+    {
+        SceneManager.LoadScene("help");
+    }
 }

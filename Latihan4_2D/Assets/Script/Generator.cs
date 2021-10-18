@@ -6,6 +6,7 @@ public class Generator : MonoBehaviour
 {
     public GameObject rocks;
     public int score = 0;
+    GUIStyle guiStyle = new GUIStyle();
     // Start is called before the first frame update
     void Start()
     {
@@ -14,7 +15,8 @@ public class Generator : MonoBehaviour
     void OnGUI()
     {
         GUI.color = Color.black;
-        GUILayout.Label("Score: " + score.ToString());
+        guiStyle.fontSize = 40;
+        GUI.Label(new Rect(0, 0, 300, 50), "Score: " + score.ToString(), guiStyle);
     }
     void CreateObstacle()
     {

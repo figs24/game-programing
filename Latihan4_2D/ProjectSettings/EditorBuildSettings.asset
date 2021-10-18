@@ -9,6 +9,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Gas.unity
     guid: 77935c9c586e97648b9dcb04cf71dc21
   - enabled: 1
+    path: Assets/Scenes/kredit.unity
+    guid: 13abc8cb738136c4f88310d57bc737b2
+  - enabled: 1
+    path: Assets/Scenes/help.unity
+    guid: 5ff649c2f7b5d7f4485d525e3892dfdc
+  - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
